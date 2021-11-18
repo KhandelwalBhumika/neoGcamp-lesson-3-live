@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@600&display=swap');
+
+:root{
+    --primary-color: #4338CA;
+    --blue: #3B82F6;
+    --pink-section: #F9A8D4;
+    --off-white: #FEF3C7;
+
+    ;
+}
+body{
+    font-family: 'Montagu Slab', serif;
+}
+.container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.link-secondary {
+        color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+hr{
+    margin: 2rem 0.5rem;
+}
+
+.list-non-bullets{
+    list-style: none;
+}
+
+.list-item-inline
+{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link{
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.hero{
+    padding: 1rem 1rem;
+    text-align: center;
+}
+.hero .hero-img{
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color: var(--blue)
+}
+
+.hero .heading-highlight{
+    color: var(--primary-color);
+}
+
+.section{
+    padding: 2rem 1rems;
+}
+.section h5{
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--pink-section);
+}
+.section .section-text{
+    text-align: center;
+}
+.section-ow h5{
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 2rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
